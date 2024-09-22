@@ -1,0 +1,88 @@
+/*
+Theme Name: Concie
+Theme URI: http://salonglong.com/concie
+Author: 萨龙龙
+Author URI: http://salonglong.com
+Description: 远方的雪山原创主题，获得技术支持　<a href="http://salonglong.com/">远方的雪山</a>
+Version: 1.0
+Tags: 远方的雪山,简约主题,HTML5,CSS3,响应式
+Time: 2014.05.01
+*/
+
+/*前台蓝色样式切换*/
+
+/*颜色*/
+a:hover,a:active,hgroup h1 a,.post-head h2 a:hover,.info a:hover,.sidebar-widget h3 a:hover,.social-icons a:hover,#wp-calendar td a,.cat-title,.crumbs-wrap a:hover,.crumbs-wrap h3,.entry a,.entry a:hover,#comments .comment-info a:hover,.comment-reply-link-a:hover,.archives li a:hover{
+	color: #3878f8;
+}
+
+/*背景颜色*/
+.search-submit input,.header-menu,#searchsubmit,.search-input:focus,.searchform #s:focus,.post-thumb a:hover,.stick,.audioplayer-bar-played,.audioplayer-volume-adjust div div,.format,.format a,.pagination a:hover,#comments-nav a:hover,.pagination .current,#comments-nav .current,.widget_links ul li:hover:before,.sltags a:hover,.tagcloud a:hover,#wp-calendar td:hover,#wp-calendar #today,.tags a:hover,.share a:hover,.form-submit #submit:hover,.form-submit #reset:hover,.form button:hover,.top-btn:hover,.archives li a:hover .atitle:after,.m-title:hover:after,.sl_skills_widget span,.read-more,.slidesjs-navigation:hover,.header-menu #responsive-nav,.footer-menu #responsive-nav,.footer-link ul li:hover:before,.bulletin .up:hover,.bulletin .down:hover{
+	background-color: #679edc;
+}
+
+
+/*背景颜色强制*/
+.sidebar-widget .rssbutton input,.sidebar-widget .rssbook #to:focus, .sidebar-widget .rssbutton input:hover{
+	background-color: #3A76BF !important;
+}
+
+/*描边颜色*/
+.search-input:focus,.searchform #s:focus,.sidebar-widget .rssbook #to:focus,.reader .site{
+	border-color: #679edc;
+}
+
+/*右描边颜色*/
+.search-form .search-submit:before,.ratio_widget .ratio{
+	border-right-color: #679edc;
+}
+
+/*左描边颜色*/
+.sidebar-widget h3:before,.sidebar-widget h3:after,.share h3,.share h3:before,.same_cat_posts h3:before,#comments-info:before, #respond h3:before,#link-page h2:before,.same_cat_posts h3:after,#comments-info:after, #respond h3:after,#link-page h2:after,.side,.cms-title h3:before,.cms-title h3:after,#link-page ul li a:hover{
+	border-left-color: #3A76BF;
+}
+
+/*底部描边*/
+#slides,.format a:before,.first-post{
+	border-bottom-color: #679edc;
+}
+
+/*底部描边暗*/
+.sub-menu li:last-child{
+	border-bottom-color: #3a76bf;;
+}
+
+/*顶部描边*/
+.format a:after,.footer{
+	border-top-color: #679edc;
+}
+
+#tabs li.current a{
+  border-top-color: #679edc;
+	background-color:#679edc;
+	color:#fff;
+}
+
+/*鼠标经过颜色（暗）*/
+.read-more:before,.header-menu .current-menu-item > a,.header-menu .menu > li:hover,.header-menu .menu > li > a:hover,.sub-menu li a:hover,.header-nav{
+	background-color: #3a76bf;
+}
+
+/*响应菜单描边（暗）*/
+.header-menu #responsive-nav,.footer-menu #responsive-nav{
+	border-color: #3a76bf;
+}
+
+/*菜单间隔颜色*/
+.header-menu .menu > li{
+	border-left-color: #70aff5;
+	border-right-color: #3a76bf;
+}
+
+/*响应式页脚菜单背景*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header-menu,.footer-menu{background-color: #679edc;}
+}
+@media only screen and (max-width: 479px) {
+	.header-menu,.footer-menu{background-color: #679edc;}
+}

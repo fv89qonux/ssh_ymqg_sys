@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* 蓝色 */
+/*头部*/
+.layout-header{border-bottom: 0px solid #27A9E3;background-color:#27A9E3;}
+/* 左侧菜单 */
+.side-menu .menu-item a{border-bottom: 0px solid #393d49;}
+.side-menu .menu-item:hover > a, .side-menu .menu-item.active > a{border-left-color: #27A9E3;}
+.side-menu .menu-header{border-bottom: 1px solid #2b2e37;} 
+.side-menu .menu-item .label{background: #27A9E3;}
+.layout-side-arrow:hover{background-color:#27A9E3;}
+/*菜单收缩*/
+.layout-side-arrow{left:200px;border:none}
+/*菜单选项卡*/
+.layout-main-tab{border-bottom:2px solid #27A9E3;height: 38px;line-height: 38px;}
+.tab-nav-content a.active{background: #fff;color: #27A9E3;}
+.tab-nav-content a.active i:hover{color: #FF5722;}
